@@ -236,7 +236,7 @@ footer b{color:var(--gold2)}
   $('tx').addEventListener('input',function(){$('cc').textContent=this.value.length});
 
   // عدّاد يوم التأسيس
-  var target=new Date('2026-02-22T00:00:00+03:00').getTime();
+  var target=new Date('2027-02-22T00:00:00+03:00').getTime();
   function tick(){
     var s=Math.max(0,Math.floor((target-Date.now())/1000));
     $('d1').textContent=fmt(Math.floor(s/86400));
@@ -317,4 +317,4 @@ footer b{color:var(--gold2)}
   });
 </script>
 </body>
-     </html>
+</html>
